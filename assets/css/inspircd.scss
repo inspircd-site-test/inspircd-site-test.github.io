@@ -404,7 +404,7 @@ a {
     .posts__article-excerpt {
       margin: $gutter/2 0 0 0;
       font-size: $fs_small;
-      line-height: 17px;
+      line-height: 22px;
       text-align: justify;
 
       height: 170px;
@@ -535,11 +535,13 @@ a {
       }
 
       .github-logo {
-        background: url('../images/githublogo.png') no-repeat left bottom;
+        background: url('../sprites/github_logo.svg') no-repeat left bottom;
+        background-size: contain;
       }
 
       .rss-logo {
-        background: url('../images/rsslogo.png') no-repeat left bottom;
+        color: $light;
+        margin: 0 5px;
         width: 45px;
       }
     }
